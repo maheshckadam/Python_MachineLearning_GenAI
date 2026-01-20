@@ -10,10 +10,9 @@ def EvenNumber(Value1):
 
 def main():
     No1 = 0
-    Result = 0
 
     No1 = int(input("Enter Number: "))
-    Result = EvenNumber(No1)
+    EvenNumber(No1)
 
 if __name__ == "__main__":
     main()
