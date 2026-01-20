@@ -5,8 +5,8 @@
 def SumOfDigits(Value1):
     Sum = 0
 
-    for i in range(0, len(Value1) + 1):
-        Sum = Sum + i
+    for i in range(0, len(Value1)):
+        Sum = Sum + int(Value1[i])
 
     return Sum
 
