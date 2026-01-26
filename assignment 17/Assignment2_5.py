@@ -3,6 +3,9 @@
 # Output: Prime Number
 
 def CheckPrime(Value1):
+    
+    if (Value1 < 2):
+        return False
 
     for i in range(2, Value1):
         if (Value1 % i == 0):
