@@ -1,14 +1,14 @@
 # Accept one number and dsiplay below pattern
 # Input: 3
-# Output:   1 2 3
-#           1 2 3   
+# Output:   1 
+#           1 2   
 #           1 2 3
 
 def DisplayPattern(Value1):
-    for i in range(Value1):
-        for j in range(1, Value1 + 1):
+    for i in range(1, Value1 + 1):
+        for j in range(1, i + 1):
             print(j, end=" ")
-        print()
+        print() 
 
 def main():
     No = 0
@@ -17,4 +17,4 @@ def main():
     DisplayPattern(No)
 
 if __name__ == "__main__":
-    main()
+    main()  
