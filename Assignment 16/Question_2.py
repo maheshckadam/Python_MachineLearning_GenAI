@@ -1,4 +1,6 @@
 # Check Input Number is Even or Odd.
+# Input: 11    
+# Output: Odd Number
 
 def ChkNum(Value1):
     if (Value1 % 2 == 0):
