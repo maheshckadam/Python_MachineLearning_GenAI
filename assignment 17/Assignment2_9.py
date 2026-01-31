@@ -3,8 +3,7 @@
 # Output: 7
 
 def CountDigits(No):
-    DigitCount = 0
-
+    
     DigitCount = len(str(No))
 
     return DigitCount

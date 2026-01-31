@@ -27,7 +27,7 @@ def main():
 
     Result = Frequency(Data, Value)
     
-    print("Frequency of", Value, "is:", Result)
+    print("Frequency of", Value, "is: ", Result)
 
 
 if __name__ == "__main__":

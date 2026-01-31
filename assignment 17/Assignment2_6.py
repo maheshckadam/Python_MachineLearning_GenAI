@@ -4,8 +4,8 @@
 #           * * 
 #           * 
 
-def DisplayPattern(No):
-    for i in range(No, 0, -1):
+def DisplayPattern(Value1):
+    for i in range(Value1, 0, -1):
         for j in range(i):
             print("*", end=" ")
         print()

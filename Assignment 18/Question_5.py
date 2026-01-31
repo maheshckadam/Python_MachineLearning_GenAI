@@ -28,7 +28,7 @@ def main():
 
     Result = ListPrime(Data)
 
-    print("Addition of prime numbers is:", Result)
+    print("Addition of prime numbers is: ", Result)
 
 if __name__ == "__main__":
     main()
