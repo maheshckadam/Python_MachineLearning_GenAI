@@ -40,7 +40,7 @@ def main():
         Checksum1 = CalculateChecksum(File1)
         Checksum2 = CalculateChecksum(File2)
 
-        if Checksum1 == Checksum2:
+        if (Checksum1 == Checksum2):
             print("Success")
         else:
             print("Failure")
